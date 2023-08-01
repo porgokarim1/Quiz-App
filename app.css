@@ -1,0 +1,102 @@
+body {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    max-width: 95vw;
+    overflow: hidden;
+    flex: 1;
+    padding-bottom: 100px;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #3b35da;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #23ba41;
+}
+
+button:focus {
+    outline: none;
+    background-color: #5e3370;
+}
+
+.container-fluid {
+    flex-shrink: 0;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens with width less than or equal to 768px */
+@media (max-width: 768px) {
+    .quiz-container {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+
+    .quiz-header {
+        padding: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
