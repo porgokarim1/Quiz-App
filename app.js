@@ -1,9 +1,9 @@
 const quizQuestions = [{
-    question: "Which language runs in a web browser?",
-    a: "Java",
-    b: "C",
-    c: "Python",
-    d: "JavaScript",
+    question: "Who own Twitter (X) ?",
+    a: "Donald Trump",
+    b: "Bill Gates",
+    c: "Karim Porgo",
+    d: "Elon Musk",
     correct: "d",
 }, {
     question: "What does CSS stand for?",
