@@ -65,8 +65,8 @@ submitButton.addEventListener("click", () => {
         if (currentQuiz < quizQuestions.length) loadQuiz();
         else {
             quiz.innerHTML = ` <h2>You answered ${score}/${quizQuestions.length} questions correctly</h2> 
-                <button onclick="history.go(0)">Play Again</button> `
-                // location.reload() won't work in CodePen for security reasons; } } });
+                <button onclick="history.go(0)">Retake Quiz</button> `
+        
         }
     }
 });
