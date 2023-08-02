@@ -11,6 +11,12 @@ body {
     background-image: url("background.jpg");
     background-size: cover;
 }
+img {
+    position: absolute; /* Set the image position to absolute */
+    top:5%; /* Position the image at the top */
+    left: 5%; /* Position the image at the left */
+    max-width: 10dvh;
+}
 /* background is covering the whole screen */
 * {
     box-sizing: border-box;
