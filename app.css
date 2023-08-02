@@ -26,17 +26,16 @@ img {
     background-color: burlywood;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-    width: 600px;
+    width: 700px;
     max-width: 45vw;
     overflow: hidden;
     flex: 1;
     padding-bottom: 100px;
     box-shadow: 10px 5px 5px red;
 }
-
+/* Don't make the header in relative position */
 .quiz-header {
     padding: 4rem;
-    position: relative;
     
 }
 
